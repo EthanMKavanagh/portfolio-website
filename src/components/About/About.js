@@ -7,9 +7,8 @@ class About extends Component {
         return (
         <div className="about">
             <div className="content2">
-                <div className="column">
+                <div className="column2">
                     <h1 className="subheader2">About Me</h1>
-
                     <p>
                         Hey, I'm Ethan Kavanagh, a Full Stack Software Engineer based in Minneapolis, MN. 
                         I love to build websites and applications that include a unique and creative design.
@@ -40,8 +39,8 @@ class About extends Component {
                 </div>
 
                 {/* Image of Self */}
-                <div className="column img">
-                    <img src={PictureOfSelf} alt="EthanKavangh" width='400'/>
+                <div className="column2 img">
+                    <img src={PictureOfSelf} alt="EthanKavangh" width='350'/>
                 </div>
             </div>
         </div>
