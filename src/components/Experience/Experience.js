@@ -17,7 +17,7 @@ class Experience extends Component {
                 </p>
 
                 {/* Group Project */}
-                <h4>Group Project (in progress)</h4>
+                <h4>Group Project (In Progress)</h4>
                 <p>
                     My team is creating additional functionalities for a non-profit company called <a href="https://blackignite.com/"><i>Black Ignite</i></a>.
                     One functionality would include an Admin Dashboard, and some Tooling and Automation.

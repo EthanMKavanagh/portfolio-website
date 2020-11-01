@@ -8,4 +8,4 @@ class ClassTemplate extends Component {
     }
 }
 
-export default ClassTemplate
+export default ClassTemplate;
