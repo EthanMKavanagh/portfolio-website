@@ -4,10 +4,13 @@ class Home extends Component {
     render() {
         return (
         <div>
-            <h1>Ethan Kavanagh</h1>
+            <h1>About Me</h1>
             <p>
-                I'm a Full Stack Software Engineer based in Minneapolis, MN who 
-                loves to build creative, unique, and websites and application.
+                Hey, I'm Ethan Kavanagh, a Full Stack Software Engineer based in Minneapolis, MN. 
+                I love to build websites and applications that include a unique and creative design.
+            </p>
+            <p>
+                
             </p>
         </div>
         );
