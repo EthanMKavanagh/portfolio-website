@@ -38,3 +38,7 @@
   color: #ffffff;
   margin: -8px;
 }
+
+html {
+  scroll-behavior: smooth
+}
