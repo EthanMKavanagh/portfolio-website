@@ -9,18 +9,18 @@ class About extends Component {
             <div className="content2">
                 <div className="column2">
                     <h1 className="subheader2">About Me</h1>
-                    <p>
+                    <p className="paragraph">
                         Hey, I'm Ethan Kavanagh, a Full Stack Software Engineer based in Minneapolis, MN. 
                         I love to build websites and applications that include a unique and creative design.
                     </p>
                     {/* Technologies */}
-                    <p>
+                    <p className="paragraph">
                         My goal is to create extraordinary user experience websites that demonstrate my abilities.
                     </p>
-                    <p>
+                    <p className="paragraph">
                         Recently, I have been working with:
                     </p>
-                    <ul>
+                    <ul className="paragraph">
                         <li>React & Redux</li>
                         <li>Javascript</li>
                         <li>Node.js</li>
@@ -29,10 +29,10 @@ class About extends Component {
                         <li>MaterialUI</li>
                     </ul>
                     {/* Other Technologies */}
-                    <p>
+                    <p className="paragraph">
                         Other technologies I have worked with:
                     </p>
-                    <ul>
+                    <ul className="paragraph">
                         <li>Python3</li>
                         <li>jQuery</li>
                     </ul>
