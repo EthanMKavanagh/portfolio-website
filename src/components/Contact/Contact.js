@@ -48,12 +48,12 @@ class Contact extends Component {
                         <div className="info">
                             <h2 className="links">Links</h2>
                             <IconButton>
-                                <a href="https://github.com/EthanMKavanagh">
+                                <a className="clink" href="https://github.com/EthanMKavanagh">
                                     <GitHubIcon fontSize="large" />
                                 </a>
                             </IconButton>
                             <IconButton>
-                                <a href="https://www.linkedin.com/in/ethan-kavanagh-4372311b7/">
+                                <a className="clink" href="https://www.linkedin.com/in/ethan-kavanagh-4372311b7/">
                                     <LinkedInIcon fontSize="large" />
                                 </a>
                             </IconButton>
