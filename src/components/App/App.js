@@ -1,3 +1,4 @@
+import Nav from '../Nav/Nav';
 import Header from '../Header/Header';
 import About from '../About/About';
 import Experience from '../Experience/Experience';
@@ -9,6 +10,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Header />
       <About />
       <Experience />

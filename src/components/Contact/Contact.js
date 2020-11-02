@@ -14,30 +14,13 @@ class Contact extends Component {
                 justify="center"
                 alignItems="center"
                 spacing={4}
+                id="contact"
             >
                 <Grid item>
                     <Paper elevation={3} className="paper">
                         <div className="info">
                             <h2>Location</h2>
                             <p>Minneapolis, MN</p>
-                        </div>
-                    </Paper>
-                </Grid>
-
-                <Grid item>
-                    <Paper elevation={3} className="paper">
-                        <div className="info">
-                            <h2>Email</h2>
-                            <p>ethanmkavanagh@gmail.com</p>
-                        </div>
-                    </Paper>
-                </Grid>
-
-                <Grid item>
-                    <Paper elevation={3} className="paper">
-                        <div className="info">
-                            <h2>Phone</h2>
-                            <p>(651) 900-0191</p>
                         </div>
                     </Paper>
                 </Grid>

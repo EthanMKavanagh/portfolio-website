@@ -7,9 +7,9 @@ import './Projects.css';
 class Projects extends Component {
     render() {
         return (
-            <div className="projects">
+            <div className="projects" id="portfolio">
                 <div className="content3">
-                    <h1 className="subheader4">Other Noteworthy Projects</h1>
+                    <h1 className="subheader4">Portfolio</h1>
                     {/* Projects */}
                     <div className="display">
                         <Grid
