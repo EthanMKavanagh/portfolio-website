@@ -19,10 +19,14 @@ class Experience extends Component {
                         </p>
 
                         {/* Group Project */}
-                        <h4 className="subsubheader">Prime Digital Academy – Group Project (In Progress)</h4>
+                        <h4 className="subsubheader">Prime Digital Academy – Client Project (In Progress)</h4>
                         <p className="paragraph">
                             My team is creating <a onClick={() => {window.open("https://github.com/EthanMKavanagh/black-igniteadditional")}} className="elink"><i>additional functionalities</i></a> for a non-profit company called <a onClick={() => {window.open("https://blackignite.com/")}} className="elink"><i>Black Ignite</i></a>.
-                            One functionality would include an Admin Dashboard, and some Tooling and Automation.
+                            One functionality is an admin dashboard.
+                            Another functionality is the process to sign up and speak.
+                            This includes a form, and a dropbox to include the video.
+                            Upon submission, the admin and the user would receive an email announcing its submission success.
+                            Lastly, the ability to tweet / insta the fact that you will be speaking at an event.
                         </p>
                     </div>
                     <div className="column1 videos">
