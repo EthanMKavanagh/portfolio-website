@@ -5,6 +5,15 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './Contact.css';
 
 class Contact extends Component {
+
+    onLinkedIn = () => {
+        window.open("https://www.linkedin.com/in/ethan-kavanagh-4372311b7/");
+    }
+
+    onGitHub = () => {
+        window.open("https://github.com/EthanMKavanagh");
+    }
+
     render() {
         return (
             <Grid 
@@ -29,15 +38,11 @@ class Contact extends Component {
                     <Paper elevation={3} className="paper">
                         <div className="info">
                             <h2 className="links">Links</h2>
-                            <IconButton>
-                                <a className="clink" href="https://github.com/EthanMKavanagh">
-                                    <GitHubIcon fontSize="large" />
-                                </a>
+                            <IconButton onClick={this.onGitHub}>
+                                <GitHubIcon className="clink" fontSize="large" />
                             </IconButton>
-                            <IconButton>
-                                <a className="clink" href="https://www.linkedin.com/in/ethan-kavanagh-4372311b7/">
-                                    <LinkedInIcon fontSize="large" />
-                                </a>
+                            <IconButton onClick={this.onLinkedIn}>
+                                <LinkedInIcon className="clink" fontSize="large" />
                             </IconButton>
                         </div>
                     </Paper>

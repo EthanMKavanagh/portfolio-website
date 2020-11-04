@@ -1,10 +1,10 @@
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 body{
   margin : 0px !important;
   background-color: #0C0032;
   color: #ffffff;
-  width: 100%;
+  max-width: 100%;
 }
