@@ -21,7 +21,7 @@ class Experience extends Component {
                         {/* Group Project */}
                         <h4 className="subsubheader">Prime Digital Academy – Group Project (In Progress)</h4>
                         <p className="paragraph">
-                            My team is creating additional functionalities for a non-profit company called <a onClick={() => {window.open("https://blackignite.com/")}} className="elink"><i>Black Ignite</i></a>.
+                            My team is creating <a onClick={() => {window.open("https://github.com/EthanMKavanagh/black-igniteadditional")}} className="elink"><i>additional functionalities</i></a> for a non-profit company called <a onClick={() => {window.open("https://blackignite.com/")}} className="elink"><i>Black Ignite</i></a>.
                             One functionality would include an Admin Dashboard, and some Tooling and Automation.
                         </p>
                     </div>
